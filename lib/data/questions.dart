@@ -1,0 +1,55 @@
+import 'package:quizly/models/quiz_questions.dart';
+
+const questions = [
+  QuizQuestions(
+    'What are the main building blocks of Flutter UIs?',
+    [
+      'Widgets',
+      'Components',
+      'Blocks',
+      'Functions',
+    ],
+  ),
+  QuizQuestions('How are Flutter UIs built?', [
+    'By combining widgets in code',
+    'By combining widgets in a editor',
+    'By defining widgets in config file',
+    'By using XCode / Android Studio',
+  ]),
+  QuizQuestions(
+    'What\'s the purpose of a StatefulWidget?',
+    [
+      'Update UI as data changes',
+      'Update data as UI changes',
+      'Ignore data changes',
+      'Static UI rendering',
+    ],
+  ),
+  QuizQuestions(
+    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    [
+      'StatelessWidget',
+      'StatefulWidget',
+      'Both are equally good',
+      'None of the above',
+    ],
+  ),
+  QuizQuestions(
+    'What happens if you change data in a StatelessWidget?',
+    [
+      'The UI is not updated',
+      'The UI is updated',
+      'State gets modified',
+      'Rebuilds automatically',
+    ],
+  ),
+  QuizQuestions(
+    'How should you update data inside of StatefulWidgets?',
+    [
+      'By calling setState()',
+      'By calling updateData()',
+      'By calling updateUI()',
+      'By calling updateState()',
+    ],
+  ),
+];
